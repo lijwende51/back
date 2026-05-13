@@ -30,8 +30,48 @@ export default {
     },
     methods: {
         handleSubmit() {
-            // Handle form submission logic here
+
+                // Handle registration logic here, e.g., send data to API
+                console.log('Name:', this.name);
+                console.log('Email:', this.email);
+                console.log('Password:', this.password);
+
         }
     }
 }
 </script>
+<style scoped>
+.register {
+    padding: 20px;
+}
+.register h1 {
+    margin-bottom: 20px;
+}
+.register form {
+    display: flex;
+    flex-direction: column;
+}   
+.register form div {
+    margin-bottom: 15px;
+}
+.register form label {
+    margin-bottom: 5px;
+    font-size: 14px;
+    
+}
+.register form input {
+    padding: 8px;
+    font-size: 16px;
+}
+.register form button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.register form button:hover {
+    background-color: #0056b3;
+}
+</style>
