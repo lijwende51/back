@@ -37,6 +37,7 @@ export default {
                 console.log('Password:', this.password);
 
         }
+        
     }
 }
 </script>
